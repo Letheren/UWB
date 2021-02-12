@@ -1,8 +1,5 @@
-
-
 #!/usr/bin/env bash
-# File: guessinggame2.sh
-
+# File: guessinggame.sh
 function test
 	{
 	if  [[ $1 -lt $2 ]]
@@ -18,8 +15,6 @@ function test
 		return 0
 	fi
 	}
-
-
 echo "~~~~  Welcome to the Guessing Game  ~~~~"
 response=-1
 answer=$(ls -1 | wc -l)
